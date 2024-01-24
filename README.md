@@ -1,6 +1,6 @@
-<h1>AWS Certified Solutions Architect - Associate (SSA-C03) exam preparation</h1>
+# AWS Certified Solutions Architect - Associate (SSA-C03) exam preparation
 
-<h2>Introduction</h2>
+## Introduction about exam
 
 <p>The exam AWS Certified Solutions Architect - Associate is intended for people who perform the role of solutions architect.</p>
 
@@ -11,3 +11,8 @@
  - Design secure, resilient, high-performance and cost-effective architectures.
 
  - Analyze existing solutions and determine how to make improvements.
+
+## IAM & AWS CLI
+
+### What is the IAM? 
+<p>IAM (AWS Identity and Access Management), is an internet service that helps you control access to the resources securely.</p> 
