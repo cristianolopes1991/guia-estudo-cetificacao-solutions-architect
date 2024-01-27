@@ -14,7 +14,7 @@
 
 ## IAM & AWS CLI
 
-![IAM](/home/cristiano/Documentos/fontes/guia-estudo-cetificacao-solutions-architect/images/iam.jpg)
+<img src="./images/iam.jpg" alt="Image IAM">
 
 ### What is the IAM? 
 <p>IAM (AWS Identity and Access Management), is an internet service that helps you control access to the resources securely.</p> 
@@ -32,3 +32,20 @@
  - These policies define the permissions of the users.
 
  - In aws you apply the least privilege principle: don't give more permissions than a user needs. 
+
+ - IAM is a global service
+
+### IAM: Polices
+
+Consists of
+ - Verion: policy language version, always include "2021-10-17"
+ - id: an identifier for the policy (optional)
+ - Statement: one or more individual statements (required)
+ 
+Statements consists of
+ - Sid: an identifier for the statement (optional)
+ - Effect: whether the statement allows or denies access (Allow, Deny)
+ - Principal: account/user/role to which this policy applied to
+ - Action: list of actions this policy allows or denies
+ - Resources: list of resources to which the actions applied to
+ - Condition: conditions for when this policy is in effect (optional)
