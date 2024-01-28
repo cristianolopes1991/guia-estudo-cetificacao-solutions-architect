@@ -49,3 +49,15 @@ Statements consists of
  - Action: list of actions this policy allows or denies
  - Resources: list of resources to which the actions applied to
  - Condition: conditions for when this policy is in effect (optional)
+
+ IAM Policies are JSON documents used to describe permissions within AWS. 
+
+ ### IAM Role
+  - IAM Users, applications, and services may assume IAM rules
+  - User an IAM policy for permissions
+
+ ### Bringing it all together
+
+ - Step 1: IAM Group
+ - Step 2: IAM Policy -> IAM Group
+ - Step 3: IAM User -> IAM User
