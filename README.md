@@ -137,5 +137,5 @@ What's the AWS SDK?
 
  - Establish permissions guardrails accrros multiple accounts. 
 
- - Use permissions boundaries to delegate permissions management within an account. teste
+ - Use permissions boundaries to delegate permissions management within an account.
 
