@@ -169,3 +169,13 @@ Computação em nuvem é uma entrega sob demanda de recursos de TI pela internet
  - Realize economia de custos: As empresas podem se concentrar em projetos que diferenciam seus negócios em vez de manter datacenters. A computação em nuvem permite que você se concentre em seus clientes, ao invés de no trabalho pesado de estruturar, empilhar e manter a estrutura física. Isso, geralmente, é chamado de trabalho pesado indiferenciado.
 
  - Obtem alcance global em minutos: As aplicações podem ser implantadas em várias regiões ao redor do mundo com alguns cliques. Isso significa que você pode oferecer baixa latência e uma melhor experiência aos seus clientes a um custo mínimo. 
+
+ ### O que são Regioes ?
+ As regiões são locais geograficos em todo o mundo em que a AWS hospeda seus datacenters. As regiões da AWS têm o nome do local em que elas residem. Por exemplo, nos Estados unidos, a Região do Norte da virgínia é chamada de Região do Norte da virgínia e a Região no Oregon é chamada de Região do Oregon. A AWS tem regiões na Ásia-Pacífico, Canadá, Europa, Oriente Médio e América do Sul, e continua a expandir para atender às necessidades dos clientes. 
+
+ ### Quando você decidir qual região da AWS hospedar suas aplicações e workloads, considere quatro aspectos principais: 
+
+ - Latência;
+ - Preço;
+ - Disponibilidade do serviço;
+ - Conformidade
