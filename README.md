@@ -1,5 +1,10 @@
 # AWS Certified Solutions Architect - Associate (SSA-C03) exam preparation
 
+### What is AWS ? 
+Cloud Computing is the on-demand delivery of IT resources with primarily pay-as-you-go pricing.
+
+
+
 ## Introduction about exam
 
 <p>The exam AWS Certified Solutions Architect - Associate is intended for people who perform the role of solutions architect.</p>
@@ -137,5 +142,30 @@ What's the AWS SDK?
 
  - Establish permissions guardrails accrros multiple accounts. 
 
- - Use permissions boundaries to delegate permissions management within an account. 
+ - Use permissions boundaries to delegate permissions management within an account.
 
+
+
+ ## Fundamentos Técnicos da AWS | AWS Technical Essentials
+
+On-premises e computação em nuvem
+
+Devido ao resultados de operações dispendiosas que impossibilitaram algumas workloads e experimentações e para antender 
+a essas necessidades surgiu a computação em nuvem. 
+
+Computação em nuvem é uma entrega sob demanda de recursos de TI pela internet com precificação de pagamento conforme o uso.
+
+### Seis vantagens da computação da nuvem
+
+ - Pagamento conforme o uso: Em vez de investir em datacenters e hardwares antes de saber como você vai usá-los, você paga somente quando usa recursos de computação e apenas pelo quanto você usa. 
+
+ - Beneficiar-se de economia massiva da escala: O uso da computação em nuvem permite obter um custo inferior ao que obtém em seu ambiente local. Considerando que o uso de centenas de milhares de clientes é agregado na nuvem, a AWS consegue obter economias maiores de escala, o que resulta em preços mais baixos com pagamento conforme o uso (pay as-you=go);
+
+ - Parar de adivinhar a capacidade: Elimine as suposições ao determinar suas necessidades de capacidade de infraestrutura. 
+ Muitas vezes, ao tomar uma decisão sobre a capacidade antes de implantar uma aplicação, você acaba precisando lidar com recursos e ociosos ou com capacidade limitada. Com a computação em nuvem, esses problemas são resolvidos. Você pode acessar a quantidade de capacidade que quiser e aumentar e reduzir a escala na vertical, conforme a necessidade em apenas alguns minutos. 
+
+ - Aumentar a velocidade e a agilidade: Os recursos de TI estão a apenas um clique de distância, o que significa que você reduz o tempo para disponibilizar recursos para seus desenvolvedores de semanas para minutos. Isso resulta em um aumento drástico na agilidade da organização, pois o custo e o tempo necessário para experimentar e desenvolver são significativamente mais baixos. 
+
+ - Realize economia de custos: As empresas podem se concentrar em projetos que diferenciam seus negócios em vez de manter datacenters. A computação em nuvem permite que você se concentre em seus clientes, ao invés de no trabalho pesado de estruturar, empilhar e manter a estrutura física. Isso, geralmente, é chamado de trabalho pesado indiferenciado.
+
+ - Obtem alcance global em minutos: As aplicações podem ser implantadas em várias regiões ao redor do mundo com alguns cliques. Isso significa que você pode oferecer baixa latência e uma melhor experiência aos seus clientes a um custo mínimo. 
