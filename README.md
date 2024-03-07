@@ -179,3 +179,23 @@ Computação em nuvem é uma entrega sob demanda de recursos de TI pela internet
  - Preço;
  - Disponibilidade do serviço;
  - Conformidade
+
+
+
+
+
+
+ ### AWS Partner: AWS Well-Architected Best Practices
+
+ O que é AWS Well-Architected ? 
+  - AWS Well-Architected são as praticas recomendadas pela AWS que ajuda arquitetos de nuvem a construir infraestruturas seguras, resilientes, eficientes, e de alta peformance para aplicações e workoloads. Baseado em seis pilares 
+  - Exelência operacional
+  - Segurança
+  - Confiabilidade
+  - eficiência de peformance
+  - otimização de custos e sustentabilidade. 
+
+ O que é AWS Well-Architected Framework? 
+  - Descreve os principais conceitos, princípios de projeto e praticas recomendadas para projetar e executar workloads na nuvem. Ao responder algumas perguntas fundamentais, você aprende a quanto sua arquitetura se alinha com as práticas recomendadas da nuvem e recebe orientações para fazer melhorias. 
+
+
