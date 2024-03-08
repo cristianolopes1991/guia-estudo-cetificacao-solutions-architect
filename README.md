@@ -1,5 +1,10 @@
 # AWS Certified Solutions Architect - Associate (SSA-C03) exam preparation
 
+
+
+
+
+
 ### What is AWS ? 
 Cloud Computing is the on-demand delivery of IT resources with primarily pay-as-you-go pricing.
 
@@ -208,4 +213,15 @@ Computação em nuvem é uma entrega sob demanda de recursos de TI pela internet
     Considere excluir as chaves de acesso do usuário raiz;
     Habilitar MFA na conta raiz.
 
-    
+### Computação
+
+ - on-primeses
+ - cloud
+
+
+### Amazon EC2
+
+Para criar uma instância do EC2, você deve definir o seguinte: 
+
+ - Especificações de hardware, como CPU, memória, rede e armazenamento
+ - Configurações lógicas, como localização de rede, regras de firewall, autenticação e sistema operacional de sua escolha. 
