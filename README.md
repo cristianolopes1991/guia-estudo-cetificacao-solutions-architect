@@ -199,3 +199,13 @@ Computação em nuvem é uma entrega sob demanda de recursos de TI pela internet
   - Descreve os principais conceitos, princípios de projeto e praticas recomendadas para projetar e executar workloads na nuvem. Ao responder algumas perguntas fundamentais, você aprende a quanto sua arquitetura se alinha com as práticas recomendadas da nuvem e recebe orientações para fazer melhorias. 
 
 
+### Praticas recomendadas do IAM
+
+
+  - Bloquear o usuário raiz da AWS
+    O usuário raiz é uma identidade eficiente e abrangente em sua conta da AWS. Se um usuário mal-intencionado ganhasse o controle das credenciais de usuário raiz, ele seria capaz de acessar todos os recursos em sua conta, incluindo informações pessoais e de faturamento. Para bloquear o usuário raiz, você pode fazer o seguinte : 
+    Não compartilhar as credenciais associadas ao usuário raiz;
+    Considere excluir as chaves de acesso do usuário raiz;
+    Habilitar MFA na conta raiz.
+
+    
