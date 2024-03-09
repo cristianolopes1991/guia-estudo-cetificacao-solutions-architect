@@ -1,7 +1,196 @@
 # AWS Certified Solutions Architect - Associate (SSA-C03) exam preparation
 
+## Guia do Exame
+
+O exame valida a capacidade do candidato de projetar soluções com base no AWS Well-Architected Framework.
+
+### Domínio 1: Design de arquiteturas serguras
+Declaração de tarefa 1.1: Projetar acesso seguro aos recursos da AWS
+
+Conhecimento sobre : 
+  - Controles de acesso e gerenciamento em várias contas.
+  - Serviços de identidade e acesso federado da AWS (por exemplo, AWS identity and Access Management [IAM], AWS Identity Center [AWS Single-On]).
+  - Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS).
+  - Práticas recomendadas de segurança da AWS (por exemplo, o princípio de menor privilégio).
+  - O modelo de responsabilidade compartilhada da AWS.
+
+Habilidades em :
+  - Aplicar as práticas recomendadas de segurança da AWS a usuários do IAM e usuários-raiz (por exemplo, autenticação com multifator [MFA]).
+  - Projetar um modelo de autorização flexível que inclua usuários, grupos, funções e políticas do IAM.
+  - Projetar uma estratégia de controle de acesso baseada em função (por exemplo, AWS Security Token Service [AWS STS], mudança de função, acesso entre contas).
+  - Projetar uma estratégia de segurança para várias contas da AWS (por exemplo, AWS Control Tower, políticas de controle de serviço [SCPs]).
+  - Determinar o uso apropriado de políticas de recursos para os serviços da AWS.
+  - Determinar quando federar um serviço de diretório com funções do IAM.
+
+Declaração de tarefa 1.2: Projetar cargas de trabalho e aplicações seguras.
+
+Conhecimento sobre:
+  - Configuração de aplicações e segurança de credenciais.
+  - Endpoints de serviço da AWS.
+  - Controle de portas, protocolos e tráfego de rede na AWS.
+  - Acesso seguro a aplicações.
+  - Serviços de segurança com casos de uso apropriados (por exemplo, Amazon Congnito, Amazon GuardDuty, Amazon Macie).
+  - Vetores de ameaças externos à AWS (por exemplo, DDoS, SQL injection).
+
+Habilidades em:
+  - Projetar arquiteturas de VPC com componentes de segurança (por exemplo, security groups, tabelas de rotas, ACLs de rede, gateways NAT).
+  - Determinar estratégias de segmentação de rede (por exemplo, usando sub-redes públicas e privadas).
+  - Integrar serviços da AWS para proteger aplicações (por exemplo, AWS Shield, AWS WAF, IAM Identity Center, AWS Secrets Manager).
+  - Proteger conexões de rede externas de e para a nuvem AWS (por exemplo, VPN, AWS Direct Connect).
+
+Declaração de tarefa 1.3: Determinar os controles de segurança de dados apropriados.
+
+Conhecimento sobre:
+  - Acesso e governaça de dados.
+  - Recuperação de dados.
+  - Classificação e retençao de dados.
+  - Criptografia e gerenciamento de chaves apropriado.
+
+Habilidades em:
+  - Alinhar as tecnologias da AWS para atender aos requisitos de conformidade.
+  - Criptografia de dados em trânsito (por exemplo, AWS Certificate Manager [ACM] usando TLS).
+  - Implementar políticas de acesso para chave de criptografia.
+  - Implementar backups e replicações de dados.
+  - Implementar políticas para acesso, ciclo de vida e proteção de dados.
+  - Alternar chaves de criptografia e renovar certificados.
+
+### Domínio 2: Design de arquiteturas resilientes
+
+Declaração de tarefa 2.1: Projetar arquiteturas dimensionáveis e com acomplamento fraco.
+
+Conhecimento sobre:
+  - Criação e gerenciamento de APIs (por exemplo, Amazon API Gateway, API REST).
+  - AWS Managed services com casos de uso apropriados (por exemplo, AWS Transfer Family, Amazon Simple Queue Service [Amazon SQS], Secrets Manager).
+  - Estratégias de armazenamento em cache.
+  - Princípios de design para microsserviços (por exemplo, cargas de trabalho stateless em comparação com cargas de trabalho stateful).
+  - Arquiteturas orientadas por eventos.
+  - Como usar adequadamente os aceleradores de borda (por exemplo, rede de entrega de conteúdo [CDN]).
+  - Como migrar aplicações para contêineres.
+  - Conceitos de balanceamento de carga (por exemplo, Application Load Balancer).
+  - Arquiteturas multicamadas.
+  - Conceitos de enfileiramento e sistema de mensagens (por exemplo, publicar/assinar).
+  - Tecnologias e padrões ser servidor (por exemplo, Amazon Elastic Container Service [Amazon ECS], Amazon Elastic Kubernetes Service [Amazon EKS]).
+  - Quando usar réplicas de leitura.
+  - Orquestração de fluxo de trabalho (por exemplo, AWS Step Functions).
+
+Habilidade em:
+  - Projetar arquiteturas orientadas por eventos, microsserviços e/ou multicamadas com base em requisitos.
+  - Determinar estratégias de scaling para componentes usados em um projeto de arquitetura.
+  - Determinar os serviços da AWS necessários para obter um acoplamento fraco com base em requisitos.
+  - Determinar quando usar tecnologias e padrões sem servidor.
+  - Recomendar tecnologias apropriadas de computação, armazenamento, redes e banco de dados com base em requisitos.
+  - Usar serviços da AWS com propósitos especifícos para cargas de trabalho.
+
+Declaração de tarefa 2.2: Projetar arquiteturas altamentes disponíveis e/ou tolerantes a falhas.
+
+Conhecimento sobre:
+  - Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS, Amazon Route 53).
+  - AWS Managed Services com casos de uso apropriados (por exemplo, Amazon Comprehend, Amazon Polly).
+  - Conceitos básicos e rede (por exemplo, tabelas de rotas).
+  - Estratégias de recuperação de desastres (DR) (por exemplo, backup e restauração, luz piloto, warm standby, failover ativo-ativo, objetivo de ponto de recuperação [RPO], objetivo de tempo de recuperação [RTO]).
+  - Padrões de design distribuídos.
+  - Estratégias de failover.
+  - Infraestrutura imutável.
+  - Conceitos de balanceamento de carga (por exemplo, Application Load Balancer).
+  - Conceitos de proxy (por exemplo, Proxy do Amazon RDS).
+  - Cotas de serviço e limitação de largura de banda (por exemplo, como configurar as cotas de serviços para uma carga de trabalho em um ambiente de standby).
+  - Opções e características de armazenamento (por exemplo, durabilidade, replicação).
+  - Visibilidade da carga de trabalho (por exemplo, AWS X-Ray).
+
+Habilidades em:
+  - Determinar estratégias de automação para garantir a integridade da infraestrutura.
+  - Determinar os serviços da AWS necessários para fornecer uma arquitetura altamente disponível e/ou tolerante a falhas nas Zonas de Disponibilidade ou Regiões AWS.
+  - Identificar métricas com base nos requisitos empresariais para oferecer uma solução altamente disponível.
+  - Implementar designs para mitigar pontos únicos de falha. 
+  - Implementar estratégias para garantir a durabilidade e a disponibilidade dos dados (por exemplo, backups).
+  - Selecionar uma estratégia de DR apropriada para atender aos requisitos empresariais.
+  - Usar serviços da AWS que melhoram a confiabilidade de aplicações legados e aplicações que não foram criadas para a nuvem (por exemplo, quando não é possível fazer alterações nas aplicações).
+  - Usar serviços da AWS com propósito específico para cargas de trabalho.
+
+### Domínio 3: Design de arquiteturas de alta performance
+
+Declaração de tarefa 3.1: Determinar soluções de armazenamento dimensionáveis e/ou de alto desempenho.
+
+Conhecimento sobre:
+  - Soluções de armazenamento híbrido para atender aos requisitos empresariais.
+  - Serviços de armazenamento com casos de uso apropriados (por exemplo, Amazon S3, Amazon Elastic File System [Amazon EFS], Amazon Elastic Block Store [Amazon EBS])
+  - Tipos de armazenamento com caractéristicas associadas (por exemplo, objeto, arquivo, bloco).
+
+Habilidade em:
+  - Determinar quais serviços e configurações de armazenamento atendem às demandas de desempenho.
+  - Determinar quais serviços de armazenamento que podem ser dimensionados para atender às necessidades futuras. 
+
+Declaração de tarefa 3.2: Projetar soluções de computação elásticas e de alto desempenho.
+
+Conhecimento sobre: 
+  - Serviços de computação da AWS com casos de uso apropriados (por exemplo, AWS Batch, Amazon EMR, Fargate).
+  - Conceitos de computação distribuída com base na infraestrutura global e nos serviços de borda da AWS.
+  - Conteitos de enfileiramento e sistema de mensagens (por exemplo, publicar/assinar).
+  - Recursos de escalabilidade com casos de uso apropriados (por exemplo, Amazon EC2 Auto Scaling, AWS Auto Scaling).
+  - Tecnologias e padrões sem servidor (por exemplo, Lambda, Fargate).
+  - A orquestração de contêineres (por exemplo, Amazon ECS, Amazon EKS).
+
+Habilidade em:
+  - Desacoplar cargas de trabalho para que os componentes possam ser dimensionados de forma independente.
+  - Identificar métricas e condições para realizar ações de scaling;
+  - Selecionar as opções e os recursos de computação apropriados (por exemplo, tipos de instâncias do EC2) para atender aos requisitos empresariais.
+  - Selecionar o tipo e o tamanho de recursos apropriados (por exemplo, a quantidade de memória do Lambda) para atender aos requisitos empresáriais.
+
+Declaração de tarefa 3.3: Determinar soluções de banco de dados de alto desempenho.
+
+Conhecimento sobre:
+  - Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidades, Regiões AWS).
+  - Estratégias e serviços de armazenamento em cache (por exemplo, Amazon ElasticCache).
+  - Padrões de acesso a dados (por exemplo, leitura intensiva em comparação com gravação intensiva).
+  - Planejamento da capacidade de banco de dados (por exemplo, unidades de capacidade, tipos de instâncias, IOPS provisionado).
+  - Proxies e conexões de banco de dados.
+  - Mecanismos de banco de dados com casos de uso apropriados (por exemplo, migrações homogêneas e heterogêneas).
+  - Replicações de banco de dados (por exemplo, réplicas de leitura).
+  - Tipos e serviços de banco de dados (por exemplo, sem servidor, relacional em comparação com não relacional, na memória).
+
+Habilidades em:
+  - Configurar réplicas de leitura para atender aos requisitos empresariais.
+  - Projetar arquiteturas de banco de dados.
+  - Determinar um mecanismo de banco de dados apropriado (por exemplo, MySQL em comparação com o PostgreSQL).
+  - Determinar um tipo de banco de dados apropriado (por exemplo, Amazon Aurora, Amazon DynamoDB).
+  - Integrar o armazenamento em cache para atender aos requisitos empresariais. 
+
+Declaração de tarefa 3.4: Determinar arquiteturas de rede dimensionáveis e/ou de alto desempenho.
+
+Conhecimento sobre:
+  - Serviços de rede de borda com casos de uso apropriados (por exemplo, Amazon CloudFront, AWS Global Accelerator).
+  - Como projetar arquitetura de rede (por exemplo, camadas de sub-rede, roteamento, endereçamento IP).
+  - Conceito de balanceamento de carga (por exemplo, Application Load Balancer).
+  - Opções de conexão de rede (por exemplo, AWS VPN, Direct Connect, AWS PrivateLink).
+  
+Habilidade em:
+  - Criar uma topologia de rede para várias arquiteturas (por exemplo, global, híbrida, multicamadas).
+  - Determinar quais configurações de rede podem ser dimensionadas para acomodar necessidades futuras.
+  - Determinar o posicionamento adequado dos recursos para atender aos requisitos empresariais.
+  - Selecionar a estratégia de balanceamento de carga apropriada.
+
+Declaração da tarefa 3.5: Determinar soluções de transformação e ingestão de dados de alto desempenho.
+
+Conhecimento sobre: 
+  - Serviços de data analytics e visualização de dados com casos de uso apropriados (por exemplo, Amazon Athena, AWS Lake Formation, Amazon QuickSight).
+  - Padrões de ingestão de dados (por exemplo, frequência).
+  - Serviços de transferência de dados com casos de uso apropriados (por exemplo, AWS DataSync, AWS Storage Gateway).
+  - Serviços de transformação de dados com casos de uso apropriados (por exemplo, AWS Glue).
+  - Acesso seguro a pontos de acesso de ingestão.
+  - Tamanhos e velocidades necessárias para atender aos requisitos empresariais.
+  - Serviços de streaming de dados com casos de uso apropriados (por exemplo, Amazon Kinesis).
+
+Habilidades em:
+  - Criar e proteger data lakes.
+  - Projetar arquiteturas de streaming de dados.
+  - Projetar soluções de transferência de dados.
+  - Implementar estratégias de visualização.
+  - Selecionar opções de computação apropriadas para processamento de dados (por exemplo, Amazon EMR).
+  - Selecionar configurações apropriadas para ingestão.
+  - Transformar dados entre formatos (por exemplo, .csv em .parquet).
 
 
+### Domínio 4: Design de arquiteturas econômicas
 
 
 
