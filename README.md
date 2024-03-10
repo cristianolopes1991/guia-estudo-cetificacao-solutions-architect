@@ -192,6 +192,52 @@ Habilidades em:
 
 ### Domínio 4: Design de arquiteturas econômicas
 
+Declaração de tarefa 4.1: Projetar soluções de armazenamento econômicas.
+
+Conhecimento sobre:
+  - Opções de acesso (por exemplo, um bucket do s3 com armazenamento de objetos de requester Pays).
+  - Recursos do serviço de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, cobrança de várias contas).
+  - Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, AWS Cost Explorer, AWS Budgets, AWS Cost and Usage Report).
+  - Serviços de armazenamento da AWS com casos de usos apropriados (por exemplo, Amazon FSx, Amazon EFS, Amazon S3, Amazon EBS).
+  - Estratégia de backup.
+  - Opções de armazenamento em bloco (por exemplo, tipos de volume da unidade de disco rígido [HDD], tipos de volume da unidade de estado sólido [SSD]).
+  - Ciclos e vida dos dados.
+  - Opções de armazenamento híbrido (por exemplo, DataSync, Transfer Family, Storage Gateway).
+  - Padrões de acesso ao armazenamento.
+  - Armazenamento em camadas (por exemplo, camadas frias para armazenamento de objetos).
+  - Tipos de armazenamento com caractetísticas associadas (por exemplo, objeto, arquivo, bloco).
+
+Habilidade em: 
+  - Projetar estratégias de armazenamento apropriadas (por exemplo, fazer upload em lote para o Amazon S3 em comparação com upload individual).
+  - Determinar o método de menor custo de transferência de dados de uma carga de trabalho para o armazenamento da AWS.
+  - Determinar o método e menor custo de transferência de dados de uma carga de trabalho para o armazenamento da AWS.
+  - Determinar quando o auto scaling de armazenamento é necessário.
+  - Gerenciar ciclos de vida de objetos do S3. 
+  - Selecionar o nível de armazenamento apropriado.
+  - Selecionar o ciclo de vida de dados corretos para armazenamento.
+  - Selecionar o serviço de armazenamento mais econômico para uma carga de trabalho.
+
+Declaração de tarefa 4.2: Projetar soluções de computação econômicas.
+
+Conhecimento sobre:
+  - Recursos do serviço de gerenciamento de custos da AWS (por exemplo, tags de alocação de custos, cobrança de várias contas).
+  - Ferramentas de gerenciamento de custos da AWS com casos de uso apropriados (por exemplo, Cost Explorer, AWS Budgets, AWS Cost and Usage Report).
+  - Infraestrutura global da AWS (por exemplo, Zonas de Disponibilidade, Regiões AWS).
+  - Opções de compra da AWS (por exemplo, instâncias spot, instâncias reservadas,Savings Plans).
+  - Estratégia de computação híbrida (por exemplo, AWS Outpost, AWS Snowball Edge).
+  - Famílias, tamanhos e tipos de instâncias (por exemplo, otimização para memória, otimizadas para computação, virtualização). 
+  - Otimização da utilização da computação (por exemplo, contêineres, computação sem servidor, microsserviços).
+  - Estrátegias de scaling (por exemplo, auto scaling, hibernação)
+
+Habilidades em:
+  - Determinar uma estratégia de balanceamento de carga apropriada (por exemplo, Application Load Balancer [Camada 7] em comparação com o Network Load Balancer [Camada 4] em comparação com o Gateway Load Balancer).
+  - Determinar método e estratégia de scaling apropriados para cargas de trabalho elásticas (por exemplo, horizontal em comparação com vertical, hibernação do EC2).
+  - Determinar serviços de computação da AWS econômicas com casos de uso apropriados a disponibilidade necessárias para diferentes classes de cargas de trabalho (por exemplo, carga de trabalho de produção e de não produção)
+  - Escolher a família de instâncias apropriada para uma carga de trabalho.
+  - Escolher o tamanho de instância apropriado para uma carga de trablaho.
+
+  
+
 
 
 ### What is AWS ? 
