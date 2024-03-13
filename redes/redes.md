@@ -18,5 +18,12 @@ Underestanding CIDR - IPv4
 
     - A CIDR consists of two components
     - Base IP
-        - Represents an IP contained in the range 
-        - 
+        - Represents an IP contained in the range
+
+
+
+link util: https://www.ipaddressguide.com/cidr 
+
+Public vc. Private IP (IPv4)
+
+    - The Internet Assigned Numbers Authority (IANA) established certain blocks of IPV4 addresses for the use of private (LAN) and public (Internet) address.
